@@ -11,13 +11,43 @@ A beautiful, cinematic Save-the-Date teaser video creator with Indian wedding ae
 - **Custom Music**: Indian classical-inspired harmonious background music
 - **Social Media Optimized**: High-quality output perfect for WhatsApp, Instagram, and other platforms
 
-## 🚀 Quick Start
+## 🚀 Quick Start - Multiple Ways to Use!
 
-### Prerequisites
+### 🖥️ Option 1: User-Friendly Desktop App (Recommended)
 
-Make sure you have Python 3.7+ installed on your system.
+**For Non-Technical Users - Just Double-Click!**
 
-### Installation
+1. **Download**: Get the project from GitHub (green "Code" button → "Download ZIP")
+2. **Extract**: Unzip to any folder on your computer  
+3. **Run**: Double-click the appropriate file:
+   - **Windows**: `run_app.bat`
+   - **Mac**: `run_app.command`  
+   - **Linux**: `run_app.sh` (make executable first)
+
+The app provides:
+- 🎬 Beautiful GUI interface
+- 📥 One-click video download  
+- 📱 Step-by-step social media guides
+- ⚡ Video preview and quick actions
+
+### 🌐 Option 2: Web Browser App
+
+**Access via any web browser - great for sharing with family!**
+
+1. Download the project and open terminal/command prompt
+2. Run: `python3 web_app.py`
+3. Your browser will automatically open to `http://localhost:8080`
+4. Share this URL with family members on the same network!
+
+Features:
+- 🌐 Works on any device with a browser
+- 📱 Mobile-friendly interface
+- 📥 Direct video download
+- 📋 Detailed sharing guides for all platforms
+
+### ⚡ Option 3: Command Line (For Developers)
+
+**Traditional command-line approach:**
 
 1. Clone this repository:
 ```bash
@@ -30,11 +60,14 @@ cd wedding
 pip install -r requirements.txt
 ```
 
-### Creating Your Video
-
-Run the video creator:
+3. Generate your video:
 ```bash
-python3 create_save_the_date.py
+python3 create_simple_video.py
+```
+
+4. Use the download helper:
+```bash
+python3 download_video.py
 ```
 
 The script will:
